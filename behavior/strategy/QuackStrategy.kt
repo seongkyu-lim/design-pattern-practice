@@ -1,0 +1,3 @@
+interface QuackStrategy {
+    fun quack()
+}

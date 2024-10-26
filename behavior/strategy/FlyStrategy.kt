@@ -1,0 +1,3 @@
+interface FlyStrategy {
+    fun fly()
+}
