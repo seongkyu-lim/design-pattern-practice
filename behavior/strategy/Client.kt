@@ -1,7 +1,10 @@
 
+/*
+kotlinc *.kt -include-runtime -d Client.jar && java -jar Client.jar 
+*/
 
 fun main() {
-    print("Strategy Pattern")
+    println("Strategy Pattern")
     val duckContext = DuckContext(FlyWithWingStrategy(), QuackWithDefaultStrategy())
     print (duckContext.display())
 }

@@ -17,8 +17,10 @@ class DuckContext {
     }
 
     fun display() {
-        print(" Show Duck ! ")
+        println("--------------------")
+        println(" Show Duck ! ")
         this.fly()
         this.quack()
+        println("--------------------")
     }
 }
